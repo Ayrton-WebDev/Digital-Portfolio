@@ -44,6 +44,16 @@ body {
 .hidden{display: none;}
 .circle:hover .hidden{display: block;}
 
+.homeText{
+  justify-self: center;
+  background-color: #25868E;
+  border-radius: 10px;
+  height: 50px;
+  width: 45%;
+  align-content: center;
+}
+.hero:hover .hidden{display: block;}
+
  .timeline-section {
   padding: 2rem;
   background: #25868E;
@@ -104,15 +114,7 @@ body {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
-.homeText{
-  justify-self: center;
-  background-color: #25868E;
-  border-radius: 10px;
-  height: 50px;
-  width: 45%;
-  align-content: center;
-}
-.hero:hover .hidden{display: block;}
+
 .projContainer {
     position: relative;
     width: 70%;
